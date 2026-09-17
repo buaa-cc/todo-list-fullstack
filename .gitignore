@@ -30,3 +30,6 @@ __pycache__/
 *.py[cod]
 .env
 *.bak
+
+App.vue-语法拆解.md
+Git入门-上传这个项目.md
