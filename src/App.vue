@@ -33,6 +33,7 @@ async function load() {
     list.value = await request('/todos')
   } catch (e) {
     error.value = `读取列表失败：${e.message}（后端启动了吗？）`
+    setTimeout(load,3000);
   } finally {
     loading.value = false
   }
